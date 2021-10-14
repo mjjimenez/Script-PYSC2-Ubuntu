@@ -108,7 +108,8 @@ fi
 read -p "Are you in sc2deeplearning environment?, Do you want to install the packages in sc2deeplearning?: yes, please (y) / no (n): " flag
 if test "$flag" = "y"
 then
-  conda create -n sc2deeplearning
+  conda create -n sc2deeplearning -y
+  conda activate sc2deeplearning
   conda install -y numpy
   conda install -y pandas
   conda install -y scikit-learn
