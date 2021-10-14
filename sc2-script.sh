@@ -100,7 +100,7 @@ then
   rm -rf ~/miniconda3/miniconda.sh
   ~/miniconda3/bin/conda init bash
   ~/miniconda3/bin/conda init zsh
-  conda create -n sc2deeplearning python=3.6
+  source ~/.bashrc
 else
   echo "OK."
 fi
@@ -108,6 +108,7 @@ fi
 read -p "Are you in sc2deeplearning environment?, Do you want to install the packages in sc2deeplearning?: yes, please (y) / no (n): " flag
 if test "$flag" = "y"
 then
+  conda create -n sc2deeplearning python=3.6
   conda install numpy
   conda install pandas
   conda install scikit-learn
