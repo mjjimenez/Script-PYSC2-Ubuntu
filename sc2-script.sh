@@ -51,8 +51,8 @@ then
   # unzip -P iagreetotheeula Melee.zip
   # echo “Unzip: 3.16.1-Pack_1-fix.zip”
   # unzip -P iagreetotheeula 3.16.1-Pack_1-fix.zip
-  echo “Unzip: SC2.3.16.1.zip”
-  unzip -P iagreetotheeula SC2.3.16.1.zip
+  echo “Unzip: SC2.4.10.zip”
+  unzip -P iagreetotheeula SC2.4.10.zip
   #MOVE
   echo "move cache directory"
   mv Battle.net/Cache StarCraftII/Battle.net/
@@ -86,7 +86,7 @@ then
   # rm Ladder2017Season2.zip
   # rm Ladder2017Season3.zip
   # rm Melee.zip
-  rm SC2.3.16.1.zip
+  rm SC2.4.10.zip
 else
   echo "OK."
 fi
