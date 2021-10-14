@@ -112,11 +112,11 @@ then
   conda install pandas
   conda install scikit-learn
   conda install matplotlib
-  pip install tensorflow==1.9
+  pip install tensorflow
   # pip install --upgrade tensorflow
   # pip install baselines
   # pip install absl-py
-  pip install pysc2==2.0.1
+  pip install pysc2
 else
   echo "OK."
 fi
